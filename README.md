@@ -4,7 +4,6 @@
 
 This project focuses on forecasting PM2.5 air quality levels in Beijing using Recurrent Neural Network [RNN](#RNN), Long Short Term Memory [LSTM](#LSTM). The notebook walks you through data exploration, preprocessing, model building, training, evaluation, and generating submission files. Air quality is a critical environmental and public health issue. 
 
----
 
 ## Overview
 
@@ -18,9 +17,6 @@ This model was my best pick out of 17 experiments I did with different parameter
 - **Training & Evaluation:** Splitting the data into training and validation sets, training the model, and evaluating it using MSE and RMSE.
 - **Submission:** Generating a predictions file of the outputs.
 
-
----
-
 ## Dataset
 
 - **Train Data:** [train.csv](#train.csv) contains 30,676 rows and 12 columns, including meteorological variables, datetime, and the target variable pm2.5.
@@ -28,7 +24,6 @@ This model was my best pick out of 17 experiments I did with different parameter
 
 **Note:** Ensure that these CSV files are located in your Google Drive or your local directory in the correct folder as referenced in the notebook.
 
----
 
 ## Environment and Prerequisites
 
@@ -42,7 +37,6 @@ This model was my best pick out of 17 experiments I did with different parameter
   - [tensorflow](#tensorflow)
 - **Google Colab:** Recommended for easy GPU support and for mounting Google Drive to access the dataset.
 
----
 
 ## Project Structure
 
@@ -80,7 +74,6 @@ This model was my best pick out of 17 experiments I did with different parameter
 - **outputs/**: Contains the submission files generated after predictions.
 - **README.md**: This file.
 
----
 
 ## Instructions To Run The Code
 
@@ -135,7 +128,6 @@ This model was my best pick out of 17 experiments I did with different parameter
    
    These changes can be experimented with to improve performance or discover trends or find better fine tuning parameters.
 
----
 
 ## Model Architecture
 - A **Bidirectional LSTM** layer (128 units) with ReLU activation and L2 regularization.
@@ -145,7 +137,6 @@ This model was my best pick out of 17 experiments I did with different parameter
 
 The model is compiled using the Adam optimizer with a learning rate of 0.0005 and optimized for the mean squared error (MSE) loss function.
 
----
 
 ## Results and Visualizations
 
