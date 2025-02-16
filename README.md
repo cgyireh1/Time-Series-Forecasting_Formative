@@ -80,7 +80,7 @@ This model was my best pick out of 17 experiments I did with different parameter
 1. **Clone the Repository or Download the Notebook:**
 
    ```bash
-   git clone https://github.com/yourusername/air-quality-forecasting.git
+   git clone https://github.com/cgyireh1/air-quality-forecasting.git
    cd air-quality-forecasting
    ```
 
