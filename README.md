@@ -80,8 +80,8 @@ This model was my best pick out of 17 experiments I did with different parameter
 1. **Clone the Repository or Download the Notebook:**
 
    ```bash
-   git clone https://github.com/cgyireh1/air-quality-forecasting.git
-   cd air-quality-forecasting
+   git clone https://github.com/cgyireh1/Time-Series-Forecasting_Formative.git
+   cd Time-Series-Forecasting_Formative
    ```
 
 2. **Open the Notebook in Google Colab:**
